@@ -5,7 +5,7 @@ const gridArea = document.querySelector('#grid');
 
 let gridBox = [];
 let boxes = []
-let numberRows = 4;
+let numberRows = 16;
 let totalBoxes = numberRows * numberRows;
 let borderOn = true
 let mode = 'sketch'
@@ -77,7 +77,7 @@ const resetBtn = document.querySelector('#reset');
 
 resetBtn.addEventListener('click', function (e) {
     clearGrid();
-    numberRows = prompt('howmanyrows');
+    numberRows = prompt('How many Rows?');
     totalBoxes = numberRows * numberRows;
     createGrid();
   });
