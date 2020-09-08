@@ -11,7 +11,7 @@ let borderOn = true
 let mode = 'sketch'
 let currentColor = '0, 0, 255'
 let currentColorPosition = 0
-let colorChoice = ['255, 0, 0','255, 128, 0', '255, 255, 0', '128, 255, 0','0, 255, 0','0, 255, 128','0, 255, 255', '0, 0, 255',,]
+let colorChoice = ['255, 0, 0','255, 128, 0', '255, 255, 0', '128, 255, 0','0, 255, 0','0, 255, 128','0, 255, 255', '0, 0, 255', '255,255,255', '0,0,0']
 
 function createGrid() {
 //set number of columns 
